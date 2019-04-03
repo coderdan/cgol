@@ -59,6 +59,8 @@ defmodule Cgol do
     for k <- (i - 1)..(i + 1),
         l <- (j - 1)..(j + 1),
         {k, l} != {i, j},
+        k >= 0,
+        l >= 0,
         k < 20,
         l < 20,
         elem_at(grid, k, l) > 0,
