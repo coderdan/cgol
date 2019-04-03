@@ -1,6 +1,7 @@
 # Cgol
 
-**TODO: Add description**
+![CGOL](cgol.gif "Pulsar")
+
 
 ## Installation
 
